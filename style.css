@@ -1,4 +1,21 @@
-#card > img {
+#paragraph {
+    background-color: rgb(65, 65, 65);
+    color: white;
+    font-family: fantasy;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 50px;
+    width: 100px;
+}
+
+#player > img {
     height: 300px;
     width: 220px;
+    border-radius: 30px;
+}
+
+#computer > img {
+    height: 300px;
+    width: 220px;
+    border-radius: 30px;
 }

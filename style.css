@@ -18,6 +18,16 @@
     width: 90px;
 }
 
+#reload {
+    background-color: rgb(200, 190, 50);
+    color: white;
+    font-family: fantasy;
+    font-size: 17px;
+    border-radius: 20px;
+    padding: 30px;
+    width: 90px;
+}
+
 #player > img {
     height: 250px;
     width: 170px;
@@ -26,4 +36,22 @@
 #computer > img {
     height: 250px;
     width: 170px;
+}
+
+#pTotal {
+    color: white;
+    font-family: fantasy;
+    font-size: 22px;
+}
+
+#cTotal {
+    color: white;
+    font-family: fantasy;
+    font-size: 22px;
+}
+
+#compare {
+    color: white;
+    font-family: fantasy;
+    font-size: 22px;
 }

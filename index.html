@@ -12,16 +12,22 @@
 </head>
 <body>
 
-  <p onclick="run()" id="moreCard" style = "position:fixed; top:100px; left: 45px;">Give Me A Card</p>
+  <p onclick="run()" id="moreCard" style = "position:fixed; top:120px; left: 35px;">Give Me A Card</p>
 
-  <p onclick="run()" id="noCard" style = "position:fixed; top:225px; left: 45px;">No More Cards</p>
+  <p onclick="noMoreCards()" id="noCard" style = "position:fixed; top:270px; left: 35px;">No More Cards</p>
 
-  <div id="player" style = "position:fixed; top:75px; left: 315px;"></div>
+  <p onclick="reload()" id="reload" style = "position:fixed; top:420px; left: 35px;">Reload Page</p>
 
-  <div id="computer"  style = "position:fixed; top:375px; left: 315px;"></div>
+  <div id="player" style = "position:fixed; top:75px; left: 270px;"></div>
 
-  <h1 id="pTotal"></h1>
+  <div id="computer" style = "position:fixed; top:375px; left: 270px;"></div>
+
+  <h1 id="pTotal" style = "position:fixed; top:129px; left: 1050px;"></h1>
+
+  <h1 id="cTotal" style = "position:fixed; top:129px; left: 1050px;"></h1>
     
+  <h1 id="compare" style = "position:fixed; top:329px; left: 1050px;"></h1>
+
   <script src="app.js"></script>
 </body>
 </html>

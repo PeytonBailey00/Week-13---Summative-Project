@@ -31,11 +31,15 @@
 #player > img {
     height: 250px;
     width: 170px;
+    border-radius: 25px;
+    padding: 5px;
 }
 
 #computer > img {
     height: 250px;
     width: 170px;
+    border-radius: 25px;
+    padding: 5px;
 }
 
 #pTotal {

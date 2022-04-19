@@ -1,8 +1,6 @@
 function run() {
     playerCard()
     computerCard()
-    playerTotal()
-    noMoreCards()
 }
 
 function playerCard() {
@@ -23,12 +21,8 @@ function computerCard() {
     return rC
 } 
 
-function noMoreCards() {
-    let a = document.getElementById("pTotal")
-    let b = document.getElementById("cTotal")
-
-    a.innerHTML = "Player Total is " + r + "."
-    b.innerHTML = "Computer Total is " + rC + "."
+function noCards() {
+    computerCard()
 }
 
 function reload() {

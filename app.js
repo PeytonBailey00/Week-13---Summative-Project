@@ -21,8 +21,27 @@ function computerCard() {
     return rC
 } 
 
+function whoWins() {
+    var pFinal = r
+    var cFinal = rC
+
+    if ((pFinal > cFinal) && (pFinal < 21)) {
+        let w = document.getElementById("winner")
+        w.innerHTML = "Player Wins."
+    } else if ((cFinal > pFinal) && (cFinal < 21)) {
+        let l = document.getElementById("loser")
+        l.innerHTML = "Computer Wins."
+    }
+}
+
 function noCards() {
     computerCard()
+    computerCard()
+    computerCard()
+    computerCard()
+    playerTotal()
+    computerTotal()
+    whoWins()
 }
 
 function reload() {

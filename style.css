@@ -42,13 +42,13 @@
     padding: 5px;
 }
 
-#pTotal {
+#playerA {
     color: white;
     font-family: fantasy;
     font-size: 22px;
 }
 
-#cTotal {
+#computerA {
     color: white;
     font-family: fantasy;
     font-size: 22px;
